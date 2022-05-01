@@ -69,8 +69,14 @@ p {
   border: 1px solid gray;
   padding: 15px;
 }
+
+.profile_info ul li {
+  border-top: 1px solid black;
+}
 li {
-  padding: 0;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .right {
   width: 20%;
@@ -110,11 +116,12 @@ span {
   float: right;
 }
 .profile_info {
-  padding: 15px;
+  padding: 0;
+}
+
+.profile_general {
+  padding: 0 15px;
 }
 .rec_item:hover {
-  background-color: rgb(196, 196, 196);
-}
-.border:hover {
   background-color: rgb(196, 196, 196);
 }
