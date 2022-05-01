@@ -112,3 +112,9 @@ span {
 .profile_info {
   padding: 15px;
 }
+.rec_item:hover {
+  background-color: rgb(196, 196, 196);
+}
+.border:hover {
+  background-color: rgb(196, 196, 196);
+}
